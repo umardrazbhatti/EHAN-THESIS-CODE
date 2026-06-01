@@ -1,0 +1,41 @@
+# ── Python ───────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.Python
+venv/
+.venv/
+env/
+
+# ── Notebooks ────────────────────────────────────────────────────────────
+# The Kaggle notebook is distributed separately and uploaded to Kaggle by hand;
+# it is not part of the importable source tree.
+*.ipynb
+.ipynb_checkpoints/
+
+# ── Model artifacts & caches ──────────────────────────────────────────────
+*.pth
+*.pt
+*.ckpt
+.face_cache/
+cache/
+outputs/
+runs/
+
+# ── Generated media & archives ────────────────────────────────────────────
+*.mp4
+*.avi
+*.zip
+*.tar
+*.tar.gz
+
+# ── OS / editor cruft ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
